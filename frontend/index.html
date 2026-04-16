@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Compliance Audit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Compliance Audit</h1>
+        <div class="input-section">
+            <input type="text" id="video-url" placeholder="Enter YouTube video URL">
+            <button id="analyze-button">Analyze Video</button>
+        </div>
+        <div id="loading-spinner" class="spinner hidden"></div>
+        <div id="results" class="results hidden">
+            <div id="status" class="status"></div>
+            <div id="final-report" class="final-report"></div>
+            <div id="compliance-issues" class="compliance-issues"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
