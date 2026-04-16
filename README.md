@@ -1,4 +1,4 @@
-# Azure Multi-Modal Compliance Orchestration Engine using LangGraph
+# Azure Multi-Modal Compliance Orchestration Engine using LangGraph and LangSmith
 
 ## Introduction
 This project is a cutting-edge multimodal AI system designed to analyze videos for compliance using a combination of Azure services, Generative AI, and a Retrieval-Augmented Generation (RAG) pipeline. By leveraging advanced video analysis, natural language processing, and workflow orchestration, this system generates comprehensive compliance reports for video content.
